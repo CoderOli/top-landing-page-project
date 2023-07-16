@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+
+    background-color: #1F2937;
+    color: white;
+}
+
+.logo {
+    margin-right: auto; /* Moves logo to the left of navbar */
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block; /* Aligns links horizontally instead of stacking vertically */
+    padding: 0 20px;
+}
+
