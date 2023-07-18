@@ -29,8 +29,6 @@ header {
     margin: 0 250px;
     display: flex;
     justify-content: space-between;
-
-    /* border: 2px dotted red; */
 }
 
 .hero-text {
@@ -38,8 +36,6 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
-    /* border: 5px solid purple; */
 }
 
 
@@ -59,7 +55,7 @@ main {
 main h2 {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
+    color: white;
 }
 
 .card-container {
@@ -68,6 +64,7 @@ main h2 {
     align-items: center;
     flex-wrap: wrap;
     margin: 3em 0 6em 0;
+
 }
 
 .card {
@@ -77,6 +74,7 @@ main h2 {
     flex-direction: column;
     align-items: center;
     gap: .5em;
+    color: white;
 }
 
 .square {
@@ -84,4 +82,16 @@ main h2 {
     border-radius: 20px;
     width: 160px;
     height: 160px;
+}
+
+.quote-section {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.quote-container {
+    margin: 20px 100px;
 }
